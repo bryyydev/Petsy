@@ -2,7 +2,6 @@ package com.ucucite.blockonemobdev;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -22,12 +21,12 @@ public class sign_up extends AppCompatActivity {
         setContentView(R.layout.activity_sign_up);
 
         // Initialize Views
-        etEmail = findViewById(R.id.et_email);
-        etPassword = findViewById(R.id.et_password);
-        btnLogin = findViewById(R.id.btn_login);
-        btnGoogle.setBackgroundResource(R.drawable.button_bg);
-        btnFacebook = findViewById(R.id.btn_facebook);
-        tvForgotPassword = findViewById(R.id.btn_forgot_password);
+        etEmail = findViewById(R.id.editText_gmail);
+        etPassword = findViewById(R.id.editText_password);
+        btnLogin = findViewById(R.id.btn_log_in);
+        btnGoogle.setBackgroundResource(R.drawable.ic_google;
+        btnFacebook = findViewById(R.id.btn_log_fb);
+        tvForgotPassword = findViewById(R.id.tv_frgt_password);
         tvSignUp = findViewById(R.id.btn_sign_up);
 
         // Login Button Click Event
